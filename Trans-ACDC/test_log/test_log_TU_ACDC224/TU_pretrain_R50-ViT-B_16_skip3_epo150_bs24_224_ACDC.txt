@@ -1,0 +1,48 @@
+[11:37:25.699] Namespace(Dataset=datasets.dataset_acdc.ACDCdataset, base_lr=0.01, batch_size=24, dataset='ACDC', deterministic=1, exp='TU_ACDC224', img_size=224, is_pretrain=True, is_savenii=True, list_dir='../ACDC/lists_ACDC', max_epochs=150, max_iterations=30000, n_skip=3, num_classes=4, seed=1234, test_save_dir='../predictions', vit_name='R50-ViT-B_16', vit_patches_size=16, volume_path='../ACDC/test', z_spacing=1)
+[11:37:25.700] TU_pretrain_R50-ViT-B_16_skip3_epo150_bs24_224_ACDC
+[11:37:25.720] 40 test iterations per epoch
+[11:37:28.404] idx 0 case case_002_volume_ED.npz mean_dice 0.926026 mean_hd95 1.000000
+[11:37:29.284] idx 1 case case_002_volume_ES.npz mean_dice 0.874519 mean_hd95 1.138071
+[11:37:30.155] idx 2 case case_003_volume_ED.npz mean_dice 0.932485 mean_hd95 1.000000
+[11:37:30.915] idx 3 case case_003_volume_ES.npz mean_dice 0.939511 mean_hd95 1.000000
+[11:37:31.691] idx 4 case case_008_volume_ED.npz mean_dice 0.934617 mean_hd95 1.000000
+[11:37:32.483] idx 5 case case_008_volume_ES.npz mean_dice 0.916182 mean_hd95 1.000000
+[11:37:33.290] idx 6 case case_009_volume_ED.npz mean_dice 0.860004 mean_hd95 19.725056
+[11:37:34.080] idx 7 case case_009_volume_ES.npz mean_dice 0.787217 mean_hd95 18.945980
+[11:37:34.943] idx 8 case case_012_volume_ED.npz mean_dice 0.909780 mean_hd95 1.000000
+[11:37:35.692] idx 9 case case_012_volume_ES.npz mean_dice 0.852348 mean_hd95 1.738766
+[11:37:36.482] idx 10 case case_014_volume_ED.npz mean_dice 0.894918 mean_hd95 1.138071
+[11:37:37.265] idx 11 case case_014_volume_ES.npz mean_dice 0.926794 mean_hd95 1.000000
+[11:37:37.962] idx 12 case case_017_volume_ED.npz mean_dice 0.898374 mean_hd95 1.138071
+[11:37:38.650] idx 13 case case_017_volume_ES.npz mean_dice 0.924990 mean_hd95 1.000000
+[11:37:39.257] idx 14 case case_024_volume_ED.npz mean_dice 0.925800 mean_hd95 1.000000
+[11:37:39.990] idx 15 case case_024_volume_ES.npz mean_dice 0.905730 mean_hd95 1.000000
+[11:37:40.734] idx 16 case case_042_volume_ED.npz mean_dice 0.916924 mean_hd95 1.000000
+[11:37:41.565] idx 17 case case_042_volume_ES.npz mean_dice 0.877698 mean_hd95 1.000000
+[11:37:42.310] idx 18 case case_048_volume_ED.npz mean_dice 0.909357 mean_hd95 1.000000
+[11:37:43.047] idx 19 case case_048_volume_ES.npz mean_dice 0.855861 mean_hd95 3.358189
+[11:37:43.574] idx 20 case case_049_volume_ED.npz mean_dice 0.902333 mean_hd95 1.000000
+[11:37:44.097] idx 21 case case_049_volume_ES.npz mean_dice 0.880093 mean_hd95 1.138071
+[11:37:44.626] idx 22 case case_053_volume_ED.npz mean_dice 0.943774 mean_hd95 1.000000
+[11:37:45.155] idx 23 case case_053_volume_ES.npz mean_dice 0.890853 mean_hd95 1.000000
+[11:37:45.817] idx 24 case case_055_volume_ED.npz mean_dice 0.915611 mean_hd95 1.000000
+[11:37:46.473] idx 25 case case_055_volume_ES.npz mean_dice 0.877631 mean_hd95 1.333333
+[11:37:47.232] idx 26 case case_064_volume_ED.npz mean_dice 0.942871 mean_hd95 1.000000
+[11:37:47.969] idx 27 case case_064_volume_ES.npz mean_dice 0.915679 mean_hd95 1.000000
+[11:37:48.737] idx 28 case case_067_volume_ED.npz mean_dice 0.920993 mean_hd95 1.000000
+[11:37:49.504] idx 29 case case_067_volume_ES.npz mean_dice 0.901170 mean_hd95 1.000000
+[11:37:50.207] idx 30 case case_079_volume_ED.npz mean_dice 0.906809 mean_hd95 1.333333
+[11:37:50.895] idx 31 case case_079_volume_ES.npz mean_dice 0.903195 mean_hd95 1.000000
+[11:37:52.329] idx 32 case case_081_volume_ED.npz mean_dice 0.923229 mean_hd95 1.000000
+[11:37:53.770] idx 33 case case_081_volume_ES.npz mean_dice 0.923566 mean_hd95 1.000000
+[11:37:55.236] idx 34 case case_088_volume_ED.npz mean_dice 0.912155 mean_hd95 1.000000
+[11:37:56.611] idx 35 case case_088_volume_ES.npz mean_dice 0.905506 mean_hd95 1.000000
+[11:37:57.805] idx 36 case case_092_volume_ED.npz mean_dice 0.928647 mean_hd95 1.138071
+[11:37:58.986] idx 37 case case_092_volume_ES.npz mean_dice 0.925388 mean_hd95 1.412023
+[11:38:00.118] idx 38 case case_095_volume_ED.npz mean_dice 0.932228 mean_hd95 1.000000
+[11:38:01.202] idx 39 case case_095_volume_ES.npz mean_dice 0.905760 mean_hd95 1.000000
+[11:38:01.357] Mean class 1 mean_dice 0.882837 mean_hd95 4.074021
+[11:38:01.358] Mean class 2 mean_dice 0.879656 mean_hd95 1.010355
+[11:38:01.358] Mean class 3 mean_dice 0.954503 mean_hd95 1.030902
+[11:38:01.360] Testing performance in best val model: mean_dice : 0.905666 mean_hd95 : 2.038426, boundary_IoU: 0.766162
+[11:38:01.360] big : 0.935057, small: 0.858385
